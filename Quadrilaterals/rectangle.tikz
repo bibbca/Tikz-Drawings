@@ -1,0 +1,8 @@
+\usetikzlibrary{patterns}
+\begin{tikzpicture}
+
+\draw[ultra thick]  (0,6) node (v1) {} rectangle (8,0) node (v2) {};
+\node at (4,7)[above] {\huge 4 units};
+\node at (9,3)[anchor=west] {\huge 3 units};
+\draw [step=2cm, thick] (v1) grid (v2);
+\end{tikzpicture}
