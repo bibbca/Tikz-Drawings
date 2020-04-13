@@ -1,0 +1,15 @@
+\begin{tikzpicture}
+
+
+
+\node (center) at (-0.1915,-0.1607) {};
+
+\node (left) at (-0.21,0) {};
+
+
+\node (v1) at (2.5,0) {};
+\node (v3) at (1.9151,1.607) {};
+\draw[*-triangle 60] (center) -- (v3);
+\draw[triangle 60-*] (v1) -- (left);
+
+\end{tikzpicture}

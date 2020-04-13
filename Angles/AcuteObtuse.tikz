@@ -1,0 +1,16 @@
+\usetikzlibrary{arrows}
+\begin{tikzpicture}
+
+\tikzstyle{every node}=[font=\huge]
+
+\draw[triangle 45-triangle 45][double] (-4,-2) -- (4,2);
+\draw[triangle 45-triangle 45][double] (-4,2) -- (4,-2);
+
+
+\node at (-2.5,0) {acute};
+\node at (2.5,0) {acute};
+
+\node at (0,1.5) {obtuse};
+\node at (0,-1.5) {obtuse};
+\end{tikzpicture}
+
