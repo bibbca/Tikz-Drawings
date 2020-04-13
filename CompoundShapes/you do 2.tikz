@@ -1,0 +1,11 @@
+\begin{tikzpicture}
+\node at (0,0) {};
+\draw (-3,2) -- (-3,-2) -- (3.5,-2) -- (3.5,2) -- (2,2) -- (2,-0.5) -- (-1.5,-0.5) -- (-1.5,2) -- cycle;
+\node at (0.225,-1) {\huge 11};
+\node at (1.5,0.75) {\huge 18};
+\node at (4,0) {\huge 26};
+\node at (-2.25,2.5) {\huge 10};
+\node at (2.75,2.5) {\huge 10};
+\node at (-3.5,0) {\huge 26};
+\node at (0.225,-2.5) {\huge 31};
+\end{tikzpicture}
