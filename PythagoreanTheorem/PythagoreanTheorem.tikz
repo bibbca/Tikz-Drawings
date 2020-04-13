@@ -1,0 +1,47 @@
+\begin{tikzpicture}
+\node (11) at (-3,3) {};
+\node (44) at (3,-3) {};
+\node (12) at (-1,3) {};
+\node (13) at (1,3) {};
+\node (14) at (3,3) {};
+\node (21) at (-3,1) {};
+\node (22) at (-1,1) {};
+\node (23) at (1,1) {};
+\node (24) at (3,1) {};
+\node (31) at (-3,-1) {};
+\node (32) at (-1,-1) {};
+\node (33) at (1,-1) {};
+\node (34) at (3,-1) {};
+\node (41) at (-3,-3) {};
+\node (42) at (-1,-3) {};
+\node (43) at (1,-3) {};
+
+
+% Grid Lines
+\draw [] (11.center) to (14.center);
+\draw [thin] (21.center) to (24.center);
+\draw [] (31.center) to (34.center);
+\draw [] (41.center) to (44.center);
+\draw [] (11.center) to (41.center);
+\draw [] (12.center) to (42.center);
+\draw [] (13.center) to (43.center);
+\draw [] (14.center) to (44.center);
+
+\draw [thick, color=blue] (21.center) to (12.center) to (23.center) to (32.center) to (21.center);
+\draw [thick, color=blue] (42.center) rectangle (33.center);
+\draw [thick, color=blue] (33.center) rectangle (24.center);
+
+\begin{pgfonlayer}{background}
+	\fill [thick, color=lightblue] (32.center) -- (33.center) -- (23.center) -- (32.center);
+	\fill [thick, color=springGreen] (42.center) rectangle (33.center);
+	\fill [thick, color=springBrown] (33.center) rectangle (24.center);
+	\fill [thick, color=springPink] (21.center) to (12.center) to (23.center) to (32.center) to (21.center);
+\end{pgfonlayer}
+
+\begin{pgfonlayer}{foreground}
+	\node at (0,-2) {\Large $a^2$};
+	\node at (2,0) {\Large $b^2$};
+	\node at (-1,1) {\Large $c^2$};
+\end{pgfonlayer}
+
+\end{tikzpicture}
