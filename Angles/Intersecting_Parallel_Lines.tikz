@@ -1,0 +1,16 @@
+\usetikzlibrary{arrows}
+\begin{tikzpicture}
+
+%\node at (-5,-5) {};
+
+%\node at (7,7) {};
+%\node at (-5,7) {};
+%\node at (7,-5) {};
+
+\draw[triangle 45-triangle 45][double] (-9,-2) -- (-1,2);
+\draw[triangle 45-triangle 45][double] (-9,2) -- (-1,-2);
+
+\draw[triangle 45-triangle 45][double] (1,-1) -- (9,-1);
+\draw[triangle 45-triangle 45][double] (1,1) -- (9,1);
+
+\end{tikzpicture}

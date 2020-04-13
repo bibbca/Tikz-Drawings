@@ -1,0 +1,39 @@
+\begin{tikzpicture}
+
+\node (v0) at (0,0) {};
+\node (leftBound) at (-2,0) {};
+\node (rightBound) at (2,0) {};
+\node (topBound) at (0,2) {};
+\node (lowBound) at (0,-2) {};
+
+
+
+\node (90) at (0,2.1) {};
+\node (middle) at (0,-0.2) {};
+\node (left) at (-2.1,0) {};
+\node (right) at (2.1,0) {};
+\node(30) at (1.8187,1.05) {};
+\node (30t) at (-0.1732,-0.1) {};
+\node (120) at (-1.05,1.8187) {};
+\node (120t) at (0.1,-0.1732) {};
+
+\draw[*-triangle 60] (middle) -- (90);
+\draw[triangle 60 - triangle 60] (left) -- (right);
+\draw[-triangle 60] (30t) -- (30);
+\draw[-triangle 60] (120t) -- (120);
+
+\node [above] (A) at (-1.6,0) {A};
+\node [right] (B) at (-0.9,1.6) {B};
+\node [right] (C) at (0,1.6) {C};
+\node [above] (D) at (1.3,0.8) {D};
+\node [above] (E) at (1.6,0) {E};
+\node [below] at (0,0) {O};
+
+% DOE is 30deg
+% COE is 90deg
+% COB is 30deg
+% AOB is 60deg
+% AOD is 150deg
+% BOE is 120deg
+
+\end{tikzpicture}

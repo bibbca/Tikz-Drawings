@@ -1,0 +1,36 @@
+\begin{tikzpicture}
+
+\node (v1) at (2.5,0) {};
+\node (v3) at (1.9151,1.607) {};
+\node (center) at (-0.1915,-0.1607) {};
+\node (left) at (-0.21,0) {};
+
+\node (v0) at (0,0) {};
+
+\node (bottom) at (0,-2) {};
+\node (topL) at (-2,2) {};
+\node (topL1) at (-2.1,2.1) {};
+\node (angle1) at (0.1532,-0.1286) {};
+\node (ultra left) at (-2.1,0) {};
+\node (rightish) at (0.15,0) {};
+
+
+\draw[*-triangle 60] (center) -- (v3);
+\draw[triangle 60-*] (v1) -- (left);
+\draw[-triangle 60] (angle1) -- (topL1);
+\draw[-triangle 60] (rightish) -- (ultra left);
+
+
+\node [right] (T) at (-1.8,1.8) {T};
+\node [above] (L) at (-1.65,0) {L};
+\node [above left] (M) at (1.4938,1.2534) {M};
+\node [above] (J) at (2.1,0) {J};
+\node [below] at (0,0) {O};
+
+% LOM is 140deg
+% LOT is 46deg
+% TOM is 95deg
+% JOM is 40deg
+% JOT is 135deg
+
+\end{tikzpicture}
