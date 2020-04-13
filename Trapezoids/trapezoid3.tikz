@@ -1,0 +1,10 @@
+\begin{tikzpicture}
+\node at (0,0) {};
+\draw[thick] (-1.5,2) -- (1.5,2) -- (4,-1) -- (-4,-1) -- cycle;
+\node at (0,-1.5) {\huge 24 ft};
+\node at (0,2.5) {\huge 8 ft};
+
+\node at (-0.5,0.5) {\huge 12 ft};
+\node at (-1.5,-1) {};
+\draw [thick, dashed] (-1.5,-1) to (-1.5,2);
+\end{tikzpicture}

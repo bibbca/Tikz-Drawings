@@ -1,0 +1,15 @@
+\begin{tikzpicture}
+\node at (0,0) {};
+\draw[thick] (-1.5,1) -- (1.5,1) node (v2) {} -- (4,-1) -- (-4,-1) node (v1) {} -- cycle;
+\node at (0,-1.5) {\huge 15};
+\node at (0,1.5) {\huge 9};
+%\node at (3,0.5) {\huge 5};
+%\node at (-3,0.5) {\huge 5};
+
+\draw[ |-| , thick] (4.5,-1) -- (4.5,1);
+\node at (5,0) {\huge 4};
+\draw[thick, dashed] (v1) -- (v2);
+\node at (1.5,0) {\huge $A_2$};
+\node at (-3,1.5) {\huge $A_1$};
+\draw[triangle 60-] (-1.5,0.5) arc (-90.6574:-140:1.5);
+\end{tikzpicture}

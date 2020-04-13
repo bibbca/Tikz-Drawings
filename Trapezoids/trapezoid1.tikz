@@ -1,0 +1,10 @@
+\begin{tikzpicture}
+\node at (0,0) {};
+\draw[thick] (-1.5,1) -- (1.5,1) -- (4,-1) -- (-4,-1) -- cycle;
+\node at (0,-1.5) {\huge 15};
+\node at (0,1.5) {\huge 9};
+\node at (3,0.5) {\huge 5};
+\node at (-3,0.5) {\huge 5};
+\draw[ |-| , thick] (4.5,-1) -- (4.5,1);
+\node at (5,0) {\huge 4};
+\end{tikzpicture}
