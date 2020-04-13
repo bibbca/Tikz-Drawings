@@ -1,0 +1,28 @@
+\begin{tikzpicture}
+		\node [] (bottomLeft) at (-4, -2) {};
+		\node [] (1) at (-2, 2) {};
+		\node [] (bottomRight) at (0, -2) {};
+		\node [] (3) at (2, 1) {};
+		\node [] (4) at (4, 5) {};
+		\node [] (5) at (6, 1) {};
+		\node [] (rect1) at (-2, -2) {};
+		\node [] (rect2) at (-1.75, -1.75) {};
+
+		\draw [thick] (bottomLeft.center) to (1.center);
+		\draw [thick] (1.center) to (bottomRight.center);
+		\draw [thick] (bottomRight.center) to (bottomLeft.center);
+		\draw [thick] (bottomRight.center) to (5.center);
+		\draw [thick] (5.center) to (4.center);
+		\draw [dashed, thick] (4.center) to (3.center);
+		\draw [dashed, thick] (3.center) to (bottomLeft.center);
+		\draw [thick] (1.center) to (4.center);
+		\draw [dashed, thick] (3.center) to (5.center);
+		\draw [dashed, thick] (rect1.center) to (1.center);
+		\draw [thick] (rect1.center) rectangle (rect2.center);
+
+	\node at (-2,-2.5) {\large 6};
+	\node at (3.5,-1) {\large 7};
+\node at (-0.75,0) {\large 5};
+\node at (-3.5,0) {\large 5};
+\node at (-2.25,-.25) {\large 4};
+\end{tikzpicture}

@@ -1,0 +1,33 @@
+\usetikzlibrary{arrows}
+\begin{tikzpicture}
+		\node [] (bottomLeft) at (-4, -2) {};
+		\node [] (1) at (-2, 2) {};
+		\node [] (bottomRight) at (0, -2) {};
+		\node [] (3) at (2, 1) {};
+		\node [] (4) at (4, 5) {};
+		\node [] (5) at (6, 1) {};
+		\node [] (rect1) at (-2, -2) {};
+		\node [] (rect2) at (-1.75, -1.75) {};
+
+		\draw [thick] (bottomLeft.center) to (1.center);
+		\draw [thick] (1.center) to (bottomRight.center);
+		\draw [thick] (bottomRight.center) to (bottomLeft.center);
+		\draw [thick] (bottomRight.center) to (5.center);
+		\draw [thick] (5.center) to (4.center);
+		\draw [dashed, thick] (4.center) to (3.center);
+		\draw [dashed, thick] (3.center) to (bottomLeft.center);
+		\draw [thick] (1.center) to (4.center);
+		\draw [dashed, thick] (3.center) to (5.center);
+		\draw [dashed, thick] (rect1.center) to (1.center);
+		\draw [thick] (rect1.center) rectangle (rect2.center);
+
+\node (arrowEnd) at (-2.5,-0.5) {};
+\node (arrowStart) at (-4.5,-0.5) {};
+\draw [-triangle 60, thick] (arrowStart.center) to (arrowEnd.center);
+\node at (-5.5,-0.5) {\Large base};
+
+\node (bracketStart) at (0.5,-2.5) {};
+\node (bracketEnd) at (6.5,0.5) {};
+\draw [|-|, thick] (bracketStart.center) to (bracketEnd.center);
+\node at (4.4,-1.4) {\Large height};
+\end{tikzpicture}

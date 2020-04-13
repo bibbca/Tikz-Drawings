@@ -1,0 +1,20 @@
+\begin{tikzpicture}
+
+\node (UF) at (0,1.5) {};
+\node (UR) at (1,2.5) {};
+\node (UL) at (-1.5,2.5) {};
+\node (BF) at (0,-1.5) {};
+\node (BR) at (1,-0.5) {};
+\node (BL) at (-1.5,-0.5) {};
+
+\draw [thick] (UF.center) to (BF.center);
+\draw [thick] (UL.center) to (BL.center);
+\draw [thick] (UR.center) to (BR.center);
+\draw [thick] (UF.center) -- (UL.center) -- (UR.center) -- (UF.center);
+\draw [thick] (BF.center) -- (BL.center) -- (BR.center) -- (BF.center);
+
+\node at (1.75,1) {\large 10 in.};
+\node at (-1.25,-1.25) {\large 8 in.};
+\node at (1.25,-1.15) {\large 6 in.};
+
+\end{tikzpicture}
