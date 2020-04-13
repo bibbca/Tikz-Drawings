@@ -1,0 +1,15 @@
+\begin{tikzpicture}
+\node at (0,0) {};
+\draw[|-|,line width=0.5mm] (-1.5,-2) -- (2,-2);
+\node at (-5,0) {\huge $H$};
+\node at (0.25,-2.5) {\huge Base};
+
+\draw[double] (-1.5,-1.5) -- (-4.5,1.5) -- (2,-1.5)-- cycle;
+
+\draw[thick,dashed] (-4.5,1.5) -- (-4.5,-1.5) -- (-1.5,-1.5);
+\draw[double]  (-4.5,-1) rectangle (-4,-1.5);
+\draw[|-|,line width=0.5mm] (-1.5,-2) -- (-4.5,-2);
+
+\node at (-3,-2.5) {\huge Extension};
+\node at (-3,-3) {\huge of the base};
+\end{tikzpicture}
