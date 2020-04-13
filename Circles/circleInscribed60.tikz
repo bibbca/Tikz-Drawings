@@ -1,0 +1,30 @@
+\begin{tikzpicture}
+
+\node (0) at (0,0) {};
+\node (60deg) at (1.5, 2.6) {};
+\node (90deg) at (0,3) {};
+\node (0deg) at (3,0) {};
+\node (rect) at (0.2,0.2) {};
+\node (angle) at (-1.5,-2.5981) {};
+
+\fill (0.center) circle [radius=1mm];
+\fill (60deg.center) circle [radius=1mm];
+%\fill (angle.center) circle [radius=1mm];
+\fill (0deg.center) circle [radius=1mm];
+
+
+\draw [thick]  (0.center) ellipse (3 and 3);
+\draw [thick] (0.center) to (0deg.center);
+\draw [thick] (0.center) to (60deg.center);
+%\draw [thick] (0.center) rectangle (rect);
+
+
+\node at (1.8,2.8) {\large $A$};
+\node at (3.25,0) {\large $D$};
+\node at (-0.25,-0.25) {\large $B$};
+%\node at (-1.8,-2.8) {\large $C$};
+\node at (1.5,-.5) {\large 6};
+
+\draw [thick] (0.5,0) arc (0:60:0.5);
+\node at (1,0.25) {\large $60^{\circ}$};
+\end{tikzpicture}

@@ -1,0 +1,8 @@
+\begin{tikzpicture}
+
+\draw[thick]  (0,0) ellipse (3 and 3);
+\fill[thick] (0,0) circle (4pt);
+
+\draw[thick] (2.2981,1.9284) --(0,0);
+\node at (0.8,1.3856) {\huge $r$};
+\end{tikzpicture}
