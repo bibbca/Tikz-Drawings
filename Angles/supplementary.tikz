@@ -1,0 +1,15 @@
+\begin{tikzpicture}
+
+	\node (0) at (-6, 0) {};
+	\node (1) at (5, 0) {};
+	\node (2) at (3, 4) {};
+	\node (3) at (0, 0) {};
+
+	\draw [triangle 60-triangle 60, thick] (0.center) to (1.center);
+	\draw [-triangle 60, thick] (3.center) to (2.center);
+
+\draw [thick]   ;
+\node at (1.5,0.5) {\Large $x$};
+\node at (-1,1) {\Large $2x$};
+\draw (1,0) arc (0:180:1);
+\end{tikzpicture}
