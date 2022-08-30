@@ -1,0 +1,15 @@
+\begin{tikzpicture}
+
+\node (v1) at (0,0) {};
+\node (v2) at (-3,-3) {};
+\node (v3) at (3,3) {};
+
+\draw [thick]  (v1.center) circle (3);								% Large Circle
+\fill  (v1.center) circle (1mm);										% Center Node
+
+\draw [thick]  (v1.center) rectangle (v3.center);
+
+\node at (1.5,-0.5) {\Large 10 mm};
+\node at (-1,1.5) {\Large 10 mm};
+\node at (1.5,1.5) {\Large 100 mm$^2$};
+\end{tikzpicture}
