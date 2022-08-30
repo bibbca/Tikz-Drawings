@@ -1,0 +1,9 @@
+\begin{tikzpicture}
+\node (v1) at (0,0) {};
+\draw [thick]  (v1) circle (3);
+\node (v2) at (-3,-3) {};
+\node (v3) at (3,3) {};
+\draw [help lines, step=1cm, thick] (v2.center) grid (v3.center);
+
+\fill  (v1) circle (1mm);
+\end{tikzpicture}

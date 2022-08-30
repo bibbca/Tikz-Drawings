@@ -1,0 +1,7 @@
+\usetikzlibrary{patterns}
+\begin{tikzpicture}
+
+\filldraw  (0,5) rectangle (5,0);
+\node at (2.5,6)[above] {\huge 1 unit};
+\node at (6,2.5)[anchor=west] {\huge 1 unit};
+\end{tikzpicture}

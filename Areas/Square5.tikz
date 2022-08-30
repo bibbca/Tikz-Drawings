@@ -1,0 +1,13 @@
+\begin{tikzpicture}
+\node at (0,0) {};
+\node (v1) at (-2.5,2.5) {};
+\node (v2) at (2.5,2.5) {};
+\node (v4) at (-2.5,-2.5) {};
+\node (v3) at (2.5,-2.5) {};
+
+\draw [thick]  (v1.center) edge (v2.center);
+\draw [thick]  (v2.center) edge (v3.center);
+\draw [thick]  (v3.center) edge (v4.center);
+\draw [thick]  (v4.center) edge (v1.center);
+\node at (0,3) {\large 5};
+\end{tikzpicture}
