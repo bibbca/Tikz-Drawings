@@ -1,0 +1,40 @@
+\begin{tikzpicture}
+
+	\node [] (1) at (-3, -1) {};
+	\node [] (2) at (3, -1) {};
+	\node [] (10) at (-3, 4) {};
+	\node [] (11) at (3, 4) {};
+	\node (h1) at (4,4) {};
+	\node (h2) at (4,-1) {};
+	\node (h3) at (4,2) {};
+	\node (h4) at (4,1) {};
+	\node (d1) at (-3.15,5) {};
+	\node (d2) at (3,5) {};
+	\node (d3) at (4.85,5) {};
+	\node (d4) at (11,5) {};
+
+	\draw [dashed, bend left=90, looseness=0.25] (1.center) to (2.center);
+	\draw [thick, bend right=90, looseness=0.25] (1.center) to (2.center);
+	\draw [thick] (1.center) to (10.center);
+	\draw [thick] (2.center) to (11.center);
+	\draw [thick, bend right=90, looseness=0.25] (10.center) to (11.center);
+	\draw [thick, bend left=90, looseness=0.25] (10.center) to (11.center);
+
+	\draw [|-|,thick]  (d1) edge (d2.center);
+	\node at (0,5.5) {\Large Diameter};
+	\draw [thick, |-] (h1.center) edge (h3.center);
+	\node at (4,1.5) {\Large Height};
+	\draw [thick, |-]  (h2.center) edge (h4.center);
+
+	\draw [|-|,thick]  (d3) edge (d4.center);
+	\node at (8,5.5) {\Large Diameter};
+
+	\node (c1) at (5,4) {};
+	\node (c2) at (11, 4) {};
+	\node (c3) at (8, -1) {};
+
+	\draw [thick, bend right=90, looseness=0.25] (c2.center) to (c1.center);
+	\draw [thick, bend right=90, looseness=0.25] (c1.center) to (c2.center);
+	\draw [thick] (c1.center) to (c3.center);
+	\draw [thick] (c3.center) to (c2.center);
+\end{tikzpicture}

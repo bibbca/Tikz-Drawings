@@ -1,0 +1,25 @@
+\usetikzlibrary{arrows}
+\begin{tikzpicture}
+	\begin{pgfonlayer}{nodelayer}
+		\node  (0) at (-6, 1) {};
+		\node  (1) at (-6, -1) {};
+		\node  (4) at (6, 1) {};
+		\node  (5) at (6, -1) {};
+	\end{pgfonlayer}
+	\begin{pgfonlayer}{edgelayer}
+		\draw [thick, bend right=90, looseness=0.75] (0.center) to (1.center);
+		\draw [thick, bend left=90, looseness=0.75] (0.center) to (1.center);
+		\draw [thick, dashed, bend right=90, looseness=0.75] (4.center) to (5.center);
+		\draw [thick, bend left=90, looseness=0.75] (4.center) to (5.center);
+		\draw [thick] (1.center) to (5.center);
+		\draw [thick] (0.center) to (4.center);
+	\end{pgfonlayer}
+\node (v1) at (-6,-1.5) {};
+\node (v2) at (6,-1.5) {};
+\draw [|-|,thick] (v1) edge (v2);
+\node at (0.5,-2) {\Large height};
+\node (v4) at (-7,0) {};
+\node (v3) at (-9,1) {};
+\draw  [-triangle 60, thick](v3) edge (v4);
+\node at (-10,1.5) {\Large base};
+\end{tikzpicture}

@@ -1,0 +1,35 @@
+\begin{tikzpicture}
+
+\node (circle1) at (-5,0) {};
+\node (circle2) at (-3,0) {};
+\node (1) at (-1.5,-0.5) {};
+\node (2) at (-1.5,0.5) {};
+\node (3) at (0.5,0.5) {};
+\node (4) at (0.5,-0.5) {};
+\node (arrow1) at (1.5,0) {};
+\node (arrow2) at (2.5,0) {};
+
+\node (c1) at (3.5,-0.5) {};
+\node (c2) at (4.5,-0.5) {};
+\node (c10) at (3.5,0.5) {};
+\node (c11) at (4.5,0.5) {};
+
+
+\draw [thick] (circle1.center) circle (.5);
+\draw [thick] (circle2.center) circle (.5);
+
+\draw [thick] (2.center) edge (3.center);
+\draw [thick] (3.center) edge (4.center);
+\draw [thick] (4.center) edge (1.center);
+\draw [thick] (1.center) edge (2.center);
+
+\draw[thick, -triangle 60] (arrow1.center) -- (arrow2.center);
+
+\draw [dashed, bend left=90, looseness=0.25] (c1.center) to (c2.center);
+\draw [thick, bend right=90, looseness=0.25] (c1.center) to (c2.center);
+\draw [thick] (c1.center) to (c10.center);
+\draw [thick] (c2.center) to (c11.center);
+\draw [thick, bend right=90, looseness=0.25] (c10.center) to (c11.center);
+\draw [thick, bend left=90, looseness=0.25] (c10.center) to (c11.center);
+
+\end{tikzpicture}
