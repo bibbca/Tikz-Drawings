@@ -7,6 +7,7 @@
 | cylinder2.tikz | ![](https://github.com/bibbca/Tikz-Drawings/blob/master/Cylinders/cylinder2.png) |
 | cylinderBase.tikz | ![](https://github.com/bibbca/Tikz-Drawings/blob/master/Cylinders/cylinderBase.png) |
 | cylinderDiameter.tikz | ![](https://github.com/bibbca/Tikz-Drawings/blob/master/Cylinders/cylinderDiameter.png) |
+| spheresInCylinder.tikz | ![](https://github.com/bibbca/Tikz-Drawings/blob/master/Cylinders/spheresInCylinder.png) |
 | surfaceAreaCylinder.tikz | ![](https://github.com/bibbca/Tikz-Drawings/blob/master/Cylinders/surfaceAreaCylinder.png) |
 | surfaceAreaCylinder2-Circle.tikz | ![](https://github.com/bibbca/Tikz-Drawings/blob/master/Cylinders/surfaceAreaCylinder2-Circle.png) |
 | surfaceAreaCylinder2-Cylinder.tikz | ![](https://github.com/bibbca/Tikz-Drawings/blob/master/Cylinders/surfaceAreaCylinder2-Cylinder.png) |
