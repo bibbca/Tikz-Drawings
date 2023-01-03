@@ -1,0 +1,57 @@
+\begin{tikzpicture}
+
+	\node (0) at (-6, -3) {};
+	\node (1) at (4, -3) {};
+	\node (2) at (-6, 3) {};
+	\node (3) at (4, 3) {};
+	\node (4) at (-4, 5) {};
+	\node (5) at (6, 5) {};
+	\node (6) at (6, -1) {};
+	\node (7) at (-4, -3) {};
+	\node (8) at (-2, -3) {};
+	\node (9) at (0, -3) {};
+	\node (10) at (2, -3) {};
+	\node (11) at (-4, 3) {};
+	\node (12) at (-2, 3) {};
+	\node (13) at (0, 3) {};
+	\node (14) at (2, 3) {};
+	\node (15) at (-2, 5) {};
+	\node (16) at (0, 5) {};
+	\node (17) at (2, 5) {};
+	\node (18) at (4, 5) {};
+	\node (19) at (-5, 4) {};
+	\node (20) at (5, 4) {};
+	\node (21) at (5, -2) {};
+	\node (22) at (-6, 1) {};
+	\node (23) at (4, 1) {};
+	\node (24) at (6, 3) {};
+	\node (25) at (6, 3) {};
+	\node (26) at (-6, -1) {};
+	\node (27) at (4, -1) {};
+	\node (28) at (6, 1) {};
+
+	\draw [thick] (0.center) to (2.center);
+	\draw [thick] (2.center) to (4.center);
+	\draw [thick] (4.center) to (5.center);
+	\draw [thick] (5.center) to (3.center);
+	\draw [thick] (5.center) to (6.center);
+	\draw [thick] (6.center) to (1.center);
+	\draw [thick] (1.center) to (3.center);
+	\draw [thick] (3.center) to (2.center);
+	\draw [thick] (0.center) to (1.center);
+	\draw [thick] (11.center) to (7.center);
+	\draw [thick] (12.center) to (8.center);
+	\draw [thick] (13.center) to (9.center);
+	\draw [thick] (14.center) to (10.center);
+	\draw [thick] (11.center) to (15.center);
+	\draw [thick] (12.center) to (16.center);
+	\draw [thick] (13.center) to (17.center);
+	\draw [thick] (14.center) to (18.center);
+	\draw [thick] (19.center) to (20.center);
+	\draw [thick] (20.center) to (21.center);
+	\draw [thick] (22.center) to (23.center);
+	\draw [thick] (23.center) to (25.center);
+	\draw [thick] (26.center) to (27.center);
+	\draw [thick] (27.center) to (28.center);
+
+\end{tikzpicture}

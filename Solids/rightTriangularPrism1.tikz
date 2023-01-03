@@ -1,0 +1,25 @@
+\begin{tikzpicture}
+
+	\node (0) at (-3, 2) {};
+	\node (1) at (-3, -2) {};
+	\node (2) at (3, -2) {};
+	\node (3) at (5.5,1) {};
+	\node (4) at (-0.5,5) {};
+	\node (5) at (-0.5,1) {};		% back corner 
+	\node (right) at (-2.75,-1.75) {};
+	
+	\draw [thick] (0.center) to (1.center);
+	\draw [thick] (1.center) to (2.center);
+	\draw [thick] (2.center) to (3.center);
+	\draw [thick, dashed] (1.center) to (5.center);
+	\draw [thick] (0.center) to (4.center);
+	\draw [thick, dashed] (4.center) to (5.center);
+	\draw [thick] (4.center) to (3.center);
+	\draw [thick] (0.center) to (2.center);
+	\draw [thick, dashed] (5.center) to (3.center);
+	\draw [thick] (1.center) rectangle (right.center);
+
+	\node at (0,-2.5) {\Large 4};
+	\node at (-3.5,0) {\Large 3};
+	\node at (5,-0.5) {\Large 6};
+\end{tikzpicture}

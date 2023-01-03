@@ -1,0 +1,18 @@
+\begin{tikzpicture}
+		\node (0) at (0, 4) {};
+		\node (1) at (-3, -1) {};
+		\node (2) at (3, -1) {};
+		\node (3) at (4, 4) {};
+		\node (4) at (4, -1) {};
+		\node (5) at (4.5, 1.5) {21 in};
+		\node (6) at (-3, -2) {};
+		\node (7) at (3, -2) {};
+		\node (8) at (0, -2.25) {20 in};
+
+		\draw [thick, dashed, bend left=90, looseness=0.25] (1.center) to (2.center);
+		\draw [thick, bend right=90, looseness=0.25] (1.center) to (2.center);
+		\draw [thick] (1.center) to (0.center);
+		\draw [thick] (0.center) to (2.center);
+		\draw [thick,{|-|}] (3.center) to (4.center);
+		\draw [thick, {|-|} ] (6.center) to (7.center);
+\end{tikzpicture}

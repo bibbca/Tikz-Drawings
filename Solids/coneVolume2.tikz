@@ -1,0 +1,19 @@
+\begin{tikzpicture}
+	\node (0) at (0, 4) {};
+	\node (1) at (-3, -1) {};
+	\node (2) at (3, -1) {};
+	
+	\node (c) at (0,-1) {};
+
+	\draw [thick, dashed, bend left=90, looseness=0.25] (1.center) to (2.center);
+	\draw [thick, bend right=90, looseness=0.25] (1.center) to (2.center);
+	\draw [thick] (1.center) to (0.center);
+	\draw [thick] (0.center) to (2.center);
+
+	\draw  [thick, dashed] (c.center) edge (2.center);
+	\draw [thick, dashed]  (c.center) edge (0.center);
+	\node (v1) at (0.2,-0.8) {};
+	\draw [thick] (c.center) rectangle (v1.center);
+	\node at (0.5,1) {\Large 5};
+	\node at (0,-2) {\Large $r$ = 3};
+\end{tikzpicture}
