@@ -1,0 +1,18 @@
+\begin{tikzpicture}
+%	\foreach \i in {5,...,8}
+%		\node[regular polygon, regular polygon sides =\i, draw] at (\i, 0) {\i};
+
+	\node [name=hex, regular polygon, regular polygon sides = 6, minimum size=6cm, draw] at (0,0) {};
+%	\path foreach \X in {1,...,6} {(hex.corner \X) coordinate (corner \X)};
+%	\draw shift=(hex.corner 1)
+%	\draw (hex.corner 1) to (hex.corner 3);
+%	\draw (hex.corner 1) to (hex.corner 4);
+%	\draw (hex.corner 1) to (hex.corner 5);
+
+\node at (1.5,3) {A};
+\node at (-2,3) {B};
+\node at (-3.5,0) {C};
+\node at (-2,-3) {D};
+\node at (1.5,-3) {E};
+\node at (3.5,0) {F};
+\end{tikzpicture}

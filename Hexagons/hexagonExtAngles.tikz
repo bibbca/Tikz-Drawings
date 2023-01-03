@@ -1,0 +1,30 @@
+\usetikzlibrary{arrows}
+\begin{tikzpicture}
+%	\foreach \i in {5,...,8}
+%		\node[regular polygon, regular polygon sides =\i, draw] at (\i, 0) {\i};
+
+\newcommand\numSides{6};
+
+	\node [name=hex, regular polygon, regular polygon sides = \numSides, minimum size=6cm, draw] at (0,0) {};
+%	\path foreach \X in {1,...,\numSides} {(hex.corner \X) coordinate (corner \X)};
+%	\path foreach \X in {1,...,\numSides} {(hex.side \X) coordinate (side \X)};
+
+%	\draw (hex.corner 1) to (hex.corner 3);
+%	\draw (hex.corner 1) to (hex.corner 4);
+%	\draw (hex.corner 1) to (hex.corner 5);
+	
+
+
+
+\node (v1) at (1.2,2.6) {};
+\node (v2) at (5,2.6) {};
+\draw [-stealth, dashed] (v1) edge (v2);
+%\node at (2.8,2.8) {Path if we did not turn};
+
+\draw [-stealth](3.1,2.6) arc (0:-60:1.6);
+\node at (3.7,1.9) {Amount};
+\node at (3.7,1.5) {of Turn};
+
+%\node at (3.7,1.9) {Exterior};
+%\node at (3.7,1.5) {Angle};
+\end{tikzpicture}
