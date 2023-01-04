@@ -1,0 +1,11 @@
+\begin{tikzpicture}
+   \draw[thick,triangle 60- triangle 60] (-5.5,0) -- (3.5,0);
+   \foreach \x in {-5,-4, ...,3},
+   \draw (\x cm,1pt) -- (\x cm,-1pt) node[anchor=north] {};
+
+\node at (-5,-0.5) {20};
+\node at (-3,-0.5) {30};
+\node at (-1,-0.5) {40};
+\node at (1,-0.5) {50};
+\node at (3,-0.5) {60};
+\end{tikzpicture}

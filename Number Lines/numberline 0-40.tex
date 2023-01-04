@@ -1,0 +1,6 @@
+\begin{tikzpicture}
+   \draw[thick,triangle 60- triangle 60] (-.5,0) -- (10.5,0);
+   \foreach \x\y in {0/0,1/4,2/8,3/12,4/16,5/20,6/24,7/28,8/32,9/36,10/40} {
+   \draw (\x cm,4pt) -- (\x cm,-4pt) node[anchor=north] {$\y$};
+   }
+\end{tikzpicture}

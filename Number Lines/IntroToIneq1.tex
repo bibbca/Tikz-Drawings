@@ -1,0 +1,16 @@
+\begin{tikzpicture}
+\node at (0,0) {};
+\node (v1) at (-4,0) {};
+\node (v2) at (4,0) {};
+\draw [thick, triangle 45 - triangle 45]  (v1.center) -- (v2.center);
+
+\node (v3) at (0,0.4) {};
+\node (v4) at (0,-0.4) {};
+\draw[thick] (v3.center) -- (v4.center);
+
+\node (v5) at (-3,0.4) {};
+\node (v6) at (-3,-0.4) {};
+\draw[thick] (v5.center) -- (v6.center);
+\node at (-3,-1) {\huge $a$};
+\node at (0,-1) {\huge $b$};
+\end{tikzpicture}
