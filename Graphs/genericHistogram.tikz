@@ -1,0 +1,74 @@
+\begin{tikzpicture}
+	\node (1) at (-5, -6) {};
+	\node (2) at (5, -6) {};
+	\node (3) at (5, 6) {};
+	\node (4) at (-5, 6) {};
+	\node (5) at (-4, -4) {};
+	\node (6) at (-4, 5) {};
+	\node (7) at (4.5, -4) {};
+	\node (8) at (4.5, 5) {};
+	\node (9) at (-3, -1.75) {};
+	\node (10) at (-2, -1.75) {};
+	\node (11) at (-3, -4) {};
+	\node (12) at (-2, -4) {};
+	\node (13) at (-1.5, -4) {};
+	\node (14) at (-1.5, -0.5) {};
+	\node (15) at (-0.5, -0.5) {};
+	\node (16) at (-0.5, -4) {};
+	\node (17) at (0, -4) {};
+	\node (18) at (0, 1.75) {};
+	\node (19) at (1, 1.75) {};
+	\node (20) at (1, -4) {};
+	\node (21) at (1.5, -4) {};
+	\node (22) at (1.5, 2.75) {};
+	\node (23) at (2.5, 2.75) {};
+	\node (24) at (2.5, -4) {};
+	\node (25) at (3, -4) {};
+	\node (26) at (3, 4.75) {};
+	\node (27) at (4, 4.75) {};
+	\node (28) at (4, -4) {};
+	\node (29) at (-4, -3) {};
+	\node (30) at (-4, -2) {};
+	\node (31) at (4.5, -3) {};
+	\node (32) at (4.5, -2) {};
+	\node (33) at (4.5, -1) {};
+	\node (34) at (4.5, 0) {};
+	\node (35) at (4.5, 1) {};
+	\node (36) at (4.5, 2) {};
+	\node (37) at (4.5, 3) {};
+	\node (38) at (4.5, 4) {};
+	\node (39) at (-4, -1) {};
+	\node (40) at (-4, 0) {};
+	\node (41) at (-4, 1) {};
+	\node (42) at (-4, 2) {};
+	\node (43) at (-4, 3) {};
+	\node (44) at (-4, 4) {};
+
+	\draw[very thick] (6.center) to (5.center);
+	\draw[very thick] (5.center) to (7.center);
+	\fill[color=cyan] (11.center) -- (9.center) -- (10.center) -- (12.center);
+	\draw[very thick] (11.center) -- (9.center) -- (10.center) -- (12.center) -- cycle;
+	
+	\fill[color=cyan] (13.center) -- (14.center) -- (15.center) -- (16.center);
+	\draw[very thick] (13.center) -- (14.center) -- (15.center) -- (16.center) -- cycle;
+	
+	\fill[color=cyan] (17.center) -- (18.center) -- (19.center) -- (20.center);
+	\draw[very thick] (17.center) -- (18.center) -- (19.center) -- (20.center) -- cycle;
+	
+	\fill[color=cyan] (21.center) -- (22.center) -- (23.center) -- (24.center);
+	\draw[very thick] (21.center) -- (22.center) -- (23.center) -- (24.center) -- cycle;
+	
+	\fill[color=cyan] (25.center) -- (26.center) -- (27.center) -- (28.center);
+	\draw[very thick] (25.center) -- (26.center) -- (27.center) -- (28.center) -- cycle;
+	
+	\draw[color=gray] (29.center) to (31.center);
+	\draw[color=gray] (30.center) to (32.center);
+	\draw (39.center) to (33.center);
+	\draw (40.center) to (34.center);
+	\draw (41.center) to (35.center);
+	\draw (42.center) to (36.center);
+	\draw (43.center) to (37.center);
+	\draw (44.center) to (38.center);
+	\draw[very thick] (6.center) to (8.center);
+	\draw[very thick] (8.center) to (7.center);
+\end{tikzpicture}
