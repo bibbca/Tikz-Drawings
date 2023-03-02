@@ -1,0 +1,10 @@
+\begin{tikzpicture}
+\node(m) at (0,0) {};
+\node(r) at (2.6,0) {};
+\node(up) at (-1.6,1.4) {};
+
+\draw[->, thick]  (m.center) -- (up.center);
+\draw[->, thick]  (m.center) -- (r.center);
+
+\draw[thick] (0.4,0) arc (0:140:0.4);
+\end{tikzpicture}
