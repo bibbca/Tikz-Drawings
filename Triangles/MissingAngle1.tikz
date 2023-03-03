@@ -1,0 +1,20 @@
+\begin{tikzpicture}
+\node at (0,0) {};
+\node (v1) at (-1,-1) {};
+\node (v2) at (0.2,2) {};
+\node (v3) at (1.5,-1) {};
+\draw [thick] (v1.center) edge (v2.center);
+\draw [thick] (v2.center) edge (v3.center);
+\draw [thick] (v3.center) edge (v1.center);
+\node at (0.2,2.3) {\large C};
+\node at (1.8,-1.2) {\large B};
+\node at (-1.2,-1.2) {\large A};
+
+\draw (-0.4,-1) arc (0:70:0.6);
+
+\draw (0.4,1.5) arc (-59.9993:-110:0.5);
+\draw (1.1,-1) arc (180:115:0.4);
+\node at (-0.2,-0.5) { $82^{\circ}$};
+\node at (0.8,-0.8) {$55^{\circ}$};
+\node at (0.2,1.2) {$x$};
+\end{tikzpicture}
