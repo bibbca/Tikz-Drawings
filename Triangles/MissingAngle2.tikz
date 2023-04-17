@@ -1,0 +1,15 @@
+\begin{tikzpicture}
+
+	\node (0) at (-3, -2) {};
+	\node (1) at (4, -2) {};
+	\node (2) at (0, 1) {};
+
+	\draw [very thick] (0.center) to (1.center);
+	\draw [very thick] (1.center) to (2.center);
+	\draw [very thick] (2.center) to (0.center);
+
+\node at (0,0.5) {\huge $x^\circ$};
+
+\node at (-2,-1.7) {\huge $38^\circ$};
+\node at (2.9,-1.7) {\huge $31^\circ$};
+\end{tikzpicture}

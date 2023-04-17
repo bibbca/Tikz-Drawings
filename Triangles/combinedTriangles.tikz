@@ -1,0 +1,35 @@
+\begin{tikzpicture}
+
+\node (v1) at (-3.5,5) {};
+\node (v2) at (-3.5,-2) {};
+\node (v3) at (5,-2) {};
+
+\node (v4) at (-0.5,-2) {};
+\node (v5) at (-0.5,2.5) {};
+
+
+\draw  (v1) edge (v2);
+\draw  (v2) edge (v3);
+\draw  (v3) edge (v1);
+\draw  (v4) edge (v5);
+
+\fill (v1) circle (0.1);
+\fill (v2) circle (0.1);
+\fill (v3) circle (0.1);
+\fill (v4) circle (0.1);
+\fill (v5) circle (0.1);
+
+\node (v6) at (-3.65,-3) {};
+\node (v7) at (5,-3) {};
+\draw[thick, |-|]  (v6) edge (v7.center);
+\node at (0.75,-3.5) {\Large 24 ft};
+\node (v8) at (-4.5,-2) {};
+\node (v9) at (-4.5,5) {};
+\draw [|-|, thick] (v8.center) edge (v9.center);
+
+\node at (-5,1.5) {\Large $H_T$};
+\node at (0,0) {\Large 5 ft};
+\node at (2.25,-2.5) {\Large 6 ft};
+
+
+\end{tikzpicture}

@@ -1,0 +1,15 @@
+\begin{tikzpicture}
+\node (v1) at (-5,0) {};
+\node (v2) at (5,0) {};
+\node (v3) at (1,5) {};
+
+\draw [thick]  (v1.center) edge (v2.center);
+\draw [thick] (v2.center) edge (v3.center);
+\draw [thick] (v3.center) edge (v1.center);
+\node at (1,5.4) {\large B};
+\node at (-5.4,-0.2) {\large A};
+\node at (5.4,-0.2) {\large C};
+\node at (-2.2,2.8) {\large c};
+\node at (3.6,2.4) {\large a};
+\node at (0.2,-0.4) {\large b};
+\end{tikzpicture}

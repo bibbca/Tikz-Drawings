@@ -1,0 +1,73 @@
+\begin{tikzpicture}
+
+\node at (0,0) {};
+
+\node (a) at (-2.2981,1.9284) {};
+\node (b) at (2.8191,1.0261) {};
+\node (c) at (-1.25,-2.1651) {};
+
+\node (1) at (5.4679,1.2856) {};
+\node (2) at (8.8794,0.684) {};
+\node (3) at (6.25,-1.299) {};
+
+\draw [thick] (a.center) edge (b.center);
+\draw [thick] (c.center) edge (b.center);
+\draw [thick] (c.center) edge (a.center);
+
+\draw [thick] (3.center) edge (1.center);
+\draw [thick] (2.center) edge (3.center);
+\draw [thick] (1.center) edge (2.center);
+
+
+
+\draw (-0.9,-1.9) arc (40:113:0.4);
+\draw (-2.2,1.6) arc (-60:5:0.3);
+\draw (2.4936,0.7429) arc (-140:-195:0.4);
+
+\draw (6.1479,-1.0046) arc (100.0024:35:0.3);
+\draw (8.5936,0.4429) arc (-140:-185:0.4);
+\draw (5.5868,0.8076) arc (-80.0026:-15:0.5);
+\node (v1) at (-1.2,-1.9) {};
+\node (v2) at (-1.1,-1.6) {};
+\draw  (v1.center) edge (v2.center);
+\node (v3) at (6.3,-1.1) {};
+\node (v4) at (6.4,-0.9) {};
+\draw  (v3.center) edge (v4.center);
+\node (v5) at (-2.15,1.8) {};
+\node (v6) at (-2,1.65) {};
+\draw  (v5) edge (v6);
+\node (v7) at (-2.1,1.8) {};
+\node (v8) at (-2,1.7) {};
+
+\draw  (v7.center) edge (v8.center);
+\node (v9) at (5.7,1) {};
+\node (v11) at (5.8,1.1) {};
+\node (v10) at (5.9,0.8) {};
+\node (v12) at (6,0.9) {};
+\draw  (v9.center) edge (v10.center);
+\draw  (v11.center) edge (v12.center);
+\node (v13) at (2.5,1) {};
+\node (v17) at (2.59,0.9) {};
+\node (v16) at (2.55,0.95) {};
+\node (v14) at (2.3,0.9) {};
+\node (v18) at (2.4,0.8) {};
+\node (v15) at (2.3,0.8) {};
+
+\draw  (v14.center) edge (v13.center);
+\draw  (v15.center) edge (v16.center);
+\draw  (v18.center) edge (v17.center);
+\node (v20) at (8.55,0.65) {};
+\node (v21) at (8.58,0.6) {};
+\node (v24) at (8.6,0.55) {};
+\node (v19) at (8.4,0.6) {};
+\node (v22) at (8.4,0.55) {};
+\node (v23) at (8.4,0.5) {};
+\draw  (v19.center) edge (v20.center);
+\draw  (v21.center) edge (v22.center);
+\draw  (v23.center) edge (v24.center);
+\node at (1,-1) {\Large 10};
+\node at (0,2) {\Large a};
+
+\node at (8,-0.5) {\Large 6};
+\node at (7.25,1.5) {\Large 3};
+\end{tikzpicture}

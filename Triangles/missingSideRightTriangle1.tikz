@@ -1,0 +1,8 @@
+\begin{tikzpicture}
+\node at (0,0) {};
+\draw[thick] (-1.5,1.5) -- (-1.5,-1.5) -- (2,-1.5) -- cycle;
+\node at (-2,-0.25) {\huge $a$};
+\node at (0.25,-2) {\huge 12};
+\draw[thick]  (-1.5,-1) rectangle (-1,-1.5);
+\node at (1,0.5) {\huge 13};
+\end{tikzpicture}

@@ -1,0 +1,26 @@
+\begin{tikzpicture}
+		\node (1) at (3, 0) {};
+		\node (0) at (0, 0) {};
+		\node (2) at (-1.4,2.6) {};
+		\node (3) at (1.6,-2.8) {};
+
+		\draw (2.center) to (0.center);
+		\draw (0.center) to (3.center);
+		\draw (3.center) to (1.center);
+		\draw (1.center) to (2.center);
+		\draw (0.center) to (1.center);
+\node at (-1.8,2.8) {\large P};
+\node at (3.4,0) {\large S};
+\node at (1.6,-3.2) {\large Q};
+\node at (-0.6,0) {\large R};
+\node at (0.6,-0.2) {\large $70^{\circ}$};
+\node (v1) at (1.4,0.2) {};
+\node (v2) at (1.4,-0.2) {};
+\draw  (v1.center) edge (v2.center);
+\node (v3) at (-0.8,1) {};
+\node (v4) at (-0.4,1.2) {};
+\draw  (v3.center) edge (v4.center);
+\node (v5) at (0.6,-1.6) {};
+\node (v6) at (1,-1.4) {};
+\draw  (v5.center) edge (v6.center);
+\end{tikzpicture}

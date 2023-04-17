@@ -1,0 +1,26 @@
+\begin{tikzpicture}
+
+\node at (0,0) {};
+\node (v1) at (3,0) {};
+\node (v2) at (-2,0) {};
+\node (v3) at (-1,2) {};
+
+\draw  [thick] (v2.center) edge (v1.center);
+\draw  [thick] (v1.center) edge (v3.center);
+\draw  [thick] (v2.center) edge (v3.center);
+\draw (-1.5,0) arc (0:61:0.5);
+% \draw (2.5,0) arc (180:155:0.5);
+\draw (-1.25,1.567) arc (-120:-27:0.5);
+\node (line1) at (-0.85,1.4) {};
+\node (line2) at (-0.9,1.6) {};
+\draw (line1.center) -- (line2.center);
+\node (l3) at (-1.7,0.2) {};
+\node (l4) at (-1.5,0.4) {};
+\node (l5) at (-1.45,0.35) {};
+\node (l6) at (-1.65,0.15) {};
+\draw (l3.center) -- (l4.center);
+\draw (l5.center) -- (l6.center);
+\node at (3.5,0) {\Large X};
+\node at (-2.25,-0.25) {\Large Z};
+\node at (-1.15,2.35) {\Large Y};
+\end{tikzpicture}

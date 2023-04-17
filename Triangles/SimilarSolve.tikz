@@ -1,0 +1,21 @@
+\begin{tikzpicture}
+
+\node (v1) at (-2,-1) {};
+\node (v2) at (0,1.5) {};
+\node (v3) at (5.5,-1) {};
+\node (v4) at (0,-1) {};
+\draw [thick] (v1.center) -- (v2.center) -- (v3.center) -- (v4.center) -- (v1.center);
+\draw [thick] (v2.center) -- (v4.center);
+
+\node at (-2.5,-1.5) {\Large A};
+\node at (0,2.5) {\Large B};
+\node at (6,-1.5) {\Large C};
+\node at (0,-1.5) {\Large D};
+\node at (-1.5,0.5) {\Large $x$};
+
+\node at (3,1) {\Large $z$};
+
+\node at (-1,-1.5) {\Large 4};
+\node at (2.5,-1.5) {\Large 8};
+\node at (0.5,0) {\Large $y$};
+\end{tikzpicture}

@@ -1,0 +1,11 @@
+\begin{tikzpicture}
+\node (v1) at (-5,0) {};
+\node (v2) at (5,0) {};
+\node (v3) at (2,4) {};
+\draw [thick] (v1.center) edge (v2.center);
+\draw [thick] (v2.center) edge (v3.center);
+\draw [thick] (v3.center) edge (v1.center);
+\node at (4,2) {\large c};
+\node at (0,-0.5) {\large 9 ft};
+\node at (-1.5,2.5) {\large 4 ft};
+\end{tikzpicture}

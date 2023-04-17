@@ -1,0 +1,24 @@
+\begin{tikzpicture}
+\node (v1) at (-5,0) {};
+\node (v2) at (5,0) {};
+\node (v3) at (1,5) {};
+
+\draw [thick]  (v1.center) edge (v2.center);
+\draw [thick] (v2.center) edge (v3.center);
+\draw [thick] (v3.center) edge (v1.center);
+\node at (1,5.4) {\large B};
+\node at (-5.4,-0.2) {\large A};
+\node at (5.4,-0.2) {\large C};
+\node at (-2.2,2.8) {\large c};
+\node at (3.6,2.4) {\large a};
+\node at (0.2,-0.4) {\large b};
+\node (v4) at (1,0) {};
+\draw [thick, dashed]  (v3.center) edge (v4.center);
+\node (v6) at (1.5,0.5) {};
+\node (v5) at (1,0.5) {};
+\node (v7) at (1.5,0) {};
+
+\draw [thick] (v5.center) edge (v6.center);
+\draw [thick] (v6.center) edge (v7.center);
+\node at (1.5,2) {\large h};
+\end{tikzpicture}

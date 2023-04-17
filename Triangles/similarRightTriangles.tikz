@@ -1,0 +1,28 @@
+\begin{tikzpicture}
+
+\node at (0,0) {};
+
+\node (v1) at (-2.5,-1.5) {};
+\node (v2) at (-4.5,-1.5) {};
+\node (v3) at (-4.5,2) {};
+\node (v4) at (1.5,-1.5) {};
+\node (v5) at (1.5,0) {};
+\node (v6) at (2.5,-1.5) {};
+
+\draw [thick] (v1.center) edge (v2.center);
+\draw [thick] (v2.center) edge (v3.center);
+\draw [thick] (v3.center) edge (v1.center);
+\draw [thick] (v4.center) edge (v5.center);
+\draw [thick] (v5.center) edge (v6.center);
+\draw [thick] (v6.center) edge (v4.center);
+
+\node (right1) at (-4.25,-1.25) {};
+\node (right2) at (1.75,-1.25) {};
+
+\draw [thick] (v2.center) rectangle (right1.center);
+\draw [thick] (v4.center) rectangle (right2.center);
+\node at (-5,0) {\Large H};
+\node at (-3.5,-2) {\Large 731.5 cm};
+\node at (2,-2) {\Large 40 cm};
+\node at (0.5,-0.75) {\Large 100 cm};
+\end{tikzpicture}
