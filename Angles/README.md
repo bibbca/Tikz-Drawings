@@ -1,10 +1,24 @@
 | Filenames            |                                        Images                                       |
 |----------------------|:-----------------------------------------------------------------------------------:|
+| 4anglesNumbered.tikz      |    ![](https://github.com/bibbca/Tikz-Drawings/blob/master/Angles/4anglesNumbered.png)   |
+| 30degAngle.tikz      |    ![](https://github.com/bibbca/Tikz-Drawings/blob/master/Angles/30degAngle.png)   |
 | 40degAngle.tikz      |    ![](https://github.com/bibbca/Tikz-Drawings/blob/master/Angles/40degAngle.png)   |
 | 60degAngle.tikz      | ![](https://github.com/bibbca/Tikz-Drawings/blob/master/Angles/60degAngle.png) |
+| 80degAngle.tikz      | ![](https://github.com/bibbca/Tikz-Drawings/blob/master/Angles/80degAngle.png) |
+| 110degAngle.tikz      | ![](https://github.com/bibbca/Tikz-Drawings/blob/master/Angles/110degAngle.png) |
 | 140degAngle.tikz     | ![](https://github.com/bibbca/Tikz-Drawings/blob/master/Angles/140degAngle.png) |
-| 4anglesNumbered.tikz | ![](https://github.com/bibbca/Tikz-Drawings/blob/master/Angles/4anglesNumbered.png) |
 | AcuteObtuse.tikz     |   ![](https://github.com/bibbca/Tikz-Drawings/blob/master/Angles/AcuteObtuse.png)   |
+| anglePuzzle.tikz     |   ![](https://github.com/bibbca/Tikz-Drawings/blob/master/Angles/anglePuzzle.png)   |
+| horizontalTransversal.tikz |   ![](https://github.com/bibbca/Tikz-Drawings/blob/master/Angles/horizontalTransversal.png)   |
 | Intersecting_Parallel_Lines.tikz     |   ![](https://github.com/bibbca/Tikz-Drawings/blob/master/Angles/Intersecting_Parallel_Lines.png)   |
 | Multiangle1.tikz     |   ![](https://github.com/bibbca/Tikz-Drawings/blob/master/Angles/Multiangle1.png)   |
 | Multiangle2.tikz     |   ![](https://github.com/bibbca/Tikz-Drawings/blob/master/Angles/Multiangle2.png)   |
+| Multiangle3.tikz     |   ![](https://github.com/bibbca/Tikz-Drawings/blob/master/Angles/Multiangle3.png)   |
+| Multiangle4.tikz     |   ![](https://github.com/bibbca/Tikz-Drawings/blob/master/Angles/Multiangle4.png)   |
+| supplementary.tikz     |   ![](https://github.com/bibbca/Tikz-Drawings/blob/master/Angles/supplementary.png)   |
+| supplementaryMultiangle.tikz     |   ![](https://github.com/bibbca/Tikz-Drawings/blob/master/Angles/supplementaryMultiangle.png)   |
+| transversalWith50degree.tikz     |   ![](https://github.com/bibbca/Tikz-Drawings/blob/master/Angles/transversalWith50degree.png)   |
+| transversalWith80degree.tikz     |   ![](https://github.com/bibbca/Tikz-Drawings/blob/master/Angles/transversalWith80degree.png)   |
+| transversalWith132degree.tikz     |   ![](https://github.com/bibbca/Tikz-Drawings/blob/master/Angles/transversalWith132degree.png)   |
+| turn1.tikz     |   ![](https://github.com/bibbca/Tikz-Drawings/blob/master/Angles/turn1.png)   |
+| turn2.tikz     |   ![](https://github.com/bibbca/Tikz-Drawings/blob/master/Angles/turn2.png)   |

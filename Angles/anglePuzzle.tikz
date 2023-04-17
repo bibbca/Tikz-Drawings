@@ -1,0 +1,32 @@
+\usetikzlibrary{decorations.pathreplacing}
+\begin{tikzpicture}
+
+	\node (0) at (0, 0) {};
+	\node (1) at (-6, 8) {};
+	\node (2) at (6, 8) {};
+	\node (3) at (-6, -8) {};
+	\node (4) at (6, -8) {};
+	\node (5) at (0, 8) {};
+	\node (6) at (6,0) {};
+
+	\draw [very thick] (1.center) to (2.center);
+	\draw [very thick] (2.center) to (4.center);
+	\draw [very thick] (4.center) to (3.center);
+	\draw [very thick] (3.center) to (1.center);
+	\draw [very thick] (1.center) to (4.center);
+	\draw [very thick] (3.center) to (2.center);
+	\draw [very thick] (5.center) to (6.center);
+	\draw [thick, decoration={brace,raise=10 pt},decorate] (2) -- (3);
+
+\node at (-6.5,8.5) 	{\Huge A};
+\node at (-0.5,8.5) 	{\Huge B};
+\node at (6.5,8.5) 		{\Huge C};
+\node at (-0.5,0) 		{\Huge H};
+\node at (3,5) {\Huge G};
+\node at (6.5,0.5) {\Huge D};
+\node at (6.5,-8.5) {\Huge E};
+\node at (5.5,-6.5) 	{\huge $31^\circ$};
+\node at (-6.5,-8.5) 	{\Huge F};
+\node at (1.5,-0.5) {\Large 10 units};
+\draw [help lines, step=2cm] (-7.5,-9.5) grid (7.5,9.5);
+\end{tikzpicture}
