@@ -1,0 +1,151 @@
+\begin{tikzpicture}
+\node (center) at (0,0) {};
+
+% \draw  (center) circle (10); % reference circle
+\node (90) at (0,10) {};
+\node (0) at (10,0) {};
+\node (180) at (-10,0) {};
+\node (45) at (7,7) {};
+\node (315) at (7,-7) {};
+\node (225) at (-7,-7) {};
+\node (270) at (0,-10) {};
+\node (135) at (-7,7) {};
+
+% 45 degrees
+\node (top45) at (7,7.6) {};
+\node (bot45) at (7,6.4) {};
+\draw [ball color=cyan!20] (45.center) circle (.3);
+\draw [ball color=cyan!20] (top45.center) circle (.3);
+\draw [ball color=cyan!20] (bot45.center) circle (.3);
+\node at (6.2,7) {\huge 12};
+\node (B) at (11.5,4) {ATP};
+\node[ % ATP Star
+       star,
+       star points=10,
+       star point height=4mm,
+       %ball color=violet,
+       fill=red!20,
+       draw = yellow,
+       font=\bf
+    ] at (B.center) {};
+\node (B) at (11.5,4) {ATP};
+\node (C) at (11.5,2) {ADP};
+\filldraw [color=blue!20] (C.center) ellipse (.5 and .4);
+\node (C) at (11.5,2) {ADP};
+% \draw  (11.5,3) ellipse (1.9 and 1); % reference ellipse
+\draw [-latex, ultra thick]  (11.5,3) +(110:1.9 and 1)arc(110:250:1.9 and 1);
+\node (D) at (11.5,-2) {NADPH};
+\node[ % ATP Star
+       star,
+       star points=10,
+       star point height=4mm,
+       %ball color=violet,
+       fill=red!20,
+       draw = yellow,
+       font=\bf
+    ] at (D.center) {};
+\node (D) at (11.5,-2) {NADPH};
+\node (E) at (11.5,-4) {NADP$^+$};
+\filldraw [color=blue!20] (E.center) ellipse (.5 and .4);
+\node (E) at (11.5,-4) {NADP$^+$};
+% \draw  (11.5,-3) ellipse (1.9 and 1); % reference ellipse
+\draw [-latex, ultra thick]  (11.5,-3) +(110:1.9 and 1)arc(110:250:1.9 and 1);
+
+
+% 90 degrees
+\node (botOxygen) at (0,11) {};
+\node (botLHyd) at (-.2, 11) {};
+\node (botRHyd) at (.2, 11) {};
+\draw [ball color=cyan!20] (botOxygen.center) circle (.2);
+\draw [ball color=red!20] (botLHyd.center) circle (.1);
+\draw [ball color=red!20] (botRHyd.center) circle (.1);
+\node at (0,13.5) {\large $CO_2$};
+\node at (-0.8,11) {\huge 6};
+
+\node (topOxygen) at (0,14) {};
+\node (topLHyd) at (-.2, 14) {};
+\node (topRHyd) at (.2, 14) {};
+\draw [ball color=cyan!20] (topOxygen.center) circle (.2);
+\draw [ball color=red!20] (topLHyd.center) circle (.1);
+\draw [ball color=red!20] (topRHyd.center) circle (.1);
+\node at (-0.8,14) {\huge 6};
+
+\node (v1) at (0,13) {};
+\node (v2) at (0,11.5) {};
+\draw [very thick, dashed,-triangle 60] (v1) edge (v2);
+
+% \draw  (1,11) ellipse (1 and 1.05);
+\draw [-triangle 60, thick] (1,11) +(190:1 and 1.05) arc (190:240:1 and 1.05);
+
+% 135 degrees
+\node (1top135) at (-7,8.2) {};
+\node (2top135) at (-7,7.6) {};
+\node (1bot135) at (-7,6.4) {};
+\node (2bot135) at (-7,5.8) {};
+\draw [ball color=cyan!20] (1top135.center) circle (.3);
+\draw [ball color=cyan!20] (2top135.center) circle (.3);
+\draw [ball color=cyan!20] (135.center) circle (.3);
+\draw [ball color=cyan!20] (1bot135.center) circle (.3);
+\draw [ball color=cyan!20] (2bot135.center) circle (.3);
+\node at (-7.8,7) {\huge 6};
+
+% 180 degrees
+\node (F) at (-11.9,-1) {ATP};
+\node[ % ATP Star
+       star,
+       star points=10,
+       star point height=4mm,
+       %ball color=violet,
+       fill=red!20,
+       draw = yellow,
+       font=\bf
+    ] at (F.center) {};
+\node (F) at (-11.9,-1) {ATP};
+\node (G) at (-11.9,1) {ADP};
+\filldraw [color=blue!20] (G.center) ellipse (.5 and .4);
+\node (G) at (-11.9,1) {ADP};
+% \draw  (-11.9,0) ellipse (1.9 and 1); % reference ellipse
+\draw [latex-, ultra thick]  (-11.9,0) +(70:1.9 and 1)arc(70:-70:1.9 and 1);
+
+% 225 degrees
+\node (top225) at (-7,-6.4) {};
+\node (bot225) at (-7,-7.6) {};
+\draw [ball color=cyan!20] (top225.center) circle (.3);
+\draw [ball color=cyan!20] (225.center) circle (.3);
+\draw [ball color=cyan!20] (bot225.center) circle (.3);
+\node at (-8,-7) {\huge 10};
+
+
+% 270 degrees
+\node (top270) at (0,-11) {};
+\node (mid270) at (0,-11.6) {};
+\node (bot270) at (0,-12.2) {};
+\draw [ball color=cyan!20] (top270.center) circle (.3);
+\draw [ball color=cyan!20] (mid270.center) circle (.3);
+\draw [ball color=cyan!20] (bot270.center) circle (.3);
+\node at (-.8,-11.6) {\huge 2};
+% \draw [-triangle 60, thick] (0,-11) +(190:1 and 1.05) arc (190:240:1 and 1.05);
+% \draw  (0.5,-10.5) ellipse (0.5 and 0.5);
+\draw [-triangle 60, very thick] (0.5,-10.5) +(90:0.5 and .5) arc (90:180:0.5 and .5);
+
+
+% 315 degrees
+\node (bot315) at (7,-7.6) {};
+\node (top315) at (7,-6.4) {};
+\draw [ball color=cyan!20] (315.center) circle (.3);
+\draw [ball color=cyan!20] (top315.center) circle (.3);
+\draw [ball color=cyan!20] (bot315.center) circle (.3);
+\node at (6.2,-7) {\huge 12};
+
+% Around
+\draw [-triangle 60, ultra thick] (center.center) +(85:10 and 10) arc (85:50:10 and 10);
+\draw [-triangle 60, ultra thick] (center.center) +(40:10 and 10) arc (40:-40:10 and 10);
+\draw [-triangle 60, ultra thick] (center.center) +(-50:10 and 10) arc (-50:-130:10 and 10);
+\draw [-triangle 60, ultra thick] (center.center) +(220:10 and 10) arc (220:140:10 and 10);
+\draw [-triangle 60, ultra thick] (center.center) +(130:10 and 10) arc (130:87:10 and 10);
+
+\node at (0,-14) {\huge Sugars and Other Compounds};
+\node (v3) at (0,-12.6) {};
+\node (v4) at (0,-13.6) {};
+\draw[-triangle 60, very thick]  (v3) edge (v4);
+\end{tikzpicture}
