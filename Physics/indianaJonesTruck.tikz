@@ -1,0 +1,37 @@
+\begin{tikzpicture}
+
+\node (center) at (0,0) {};
+
+\node (v1) at (-3,-0.5) {};
+\node (v2) at (9,-0.5) {};
+\draw  (v1) edge (v2);
+\node (tire1) at (2.5,-0.25) {};
+\draw  (tire1) ellipse (0.25 and 0.25);
+\node (tire2) at (8,-0.25) {};
+\draw  (tire2) ellipse (0.25 and 0.25);
+\node (v6) at (6.5,0) {};
+\node (v8) at (8.5,1.5) {};
+\node (v9) at (6.5,1.5) {};
+\node (v7) at (8.5,0) {};
+\node (v4) at (2,3) {};
+\node (v5) at (2,0) {};
+\node (v3) at (6.5,3) {};
+\draw (v3.center) -- (v4.center) -- (v5.center) -- (v6.center) -- (v7.center) -- (v8.center) -- (v9.center) -- (v3.center);
+\draw  (center.center) -- (v5.center);
+\node (v10) at (-0.4,0.5) {};
+
+\node (v11) at (-0.9,0) {};
+
+\node (v12) at (-0.6,0.3) {};
+\draw [very thick]  (v11.center) edge (v12.center);
+\node (v13) at (-1.2,-0.3) {};
+\draw [very thick] (v11.center) -- (v13.center);
+\node (v14) at (-2,-0.5) {};
+\node (hat) at (-0.4,0.75) {};
+\draw [double,very thick]  (v13.center) -- (v14.center);
+\draw [double, very thick]  (v11.center) -- (center.center);
+\node (indyHat) at (hat.center) {\includegraphics[width=6mm]{indyHat.png}};
+\draw  [very thick] (v10) ellipse (0.25 and 0.25);  % indy head
+\draw (2.7,-0.0076) arc (80.0026:-100:0.25);
+\draw (8.2,-0.0076) arc (80.0026:-100:0.25);
+\end{tikzpicture}

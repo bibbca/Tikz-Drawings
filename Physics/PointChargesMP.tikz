@@ -1,0 +1,7 @@
+\begin{tikzpicture}
+\node at (0,0) {};
+\node (v1) at (4,0) {\Huge +};
+\node (v2) at (-4,0) {\Huge -};
+\draw[thick]  (v1) circle (1.5);
+\draw[thick]  (v2) circle (1.5);
+\end{tikzpicture}
